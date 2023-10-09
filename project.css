@@ -1,0 +1,34 @@
+body{
+    background-image: url(https://img.freepik.com/free-vector/hand-drawn-question-mark-pattern_23-2149416651.jpg);
+    background-size:cover;
+    }
+#welcoming{
+    color: rgb(255, 255, 1);
+    background-color:black ;
+   position : absolute;
+   margin-left:575px;
+   margin-top: 200px;
+}
+#start{
+    margin-left: 742px;
+    margin-top: 540px;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    padding: 0.9rem 2rem;
+    font-family: inherit;
+    font-size: inherit;
+    position: absolute;
+    display: inline-block;
+    letter-spacing: 0.05rem;
+    font-weight: 700;
+    font-size: 17px;
+    border-radius: 500px;
+    overflow: hidden;
+    background: #000000;
+    color: rgb(255, 255, 0);
+}
+
+
+
+
