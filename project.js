@@ -27,7 +27,7 @@ $('#score').hide()
 $('#scorecount').hide()
 $('#next').hide();
 $('#gojo').hide();
-$('#answers').hide()
+$('#answers').hide();
 $('#grid').hide()
 });
 

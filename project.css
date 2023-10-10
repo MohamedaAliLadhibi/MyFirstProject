@@ -17,6 +17,7 @@ body{
     position: absolute;
     background: #ff41ff;
     color: rgb(255, 255, 0);
+    width: 100px;
 }
 #next{
     margin-left: 950px;
@@ -26,6 +27,7 @@ body{
     position: absolute;
     background: #ff41ff;
     color: rgb(255, 255, 0);
+    width:100px;
 }
 #score{
     margin-left: 1400px;
@@ -49,6 +51,7 @@ body{
     font-size: 30px;
 
 }
+
  
 
 
