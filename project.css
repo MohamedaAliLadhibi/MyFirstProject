@@ -1,10 +1,10 @@
 body{
-    background-image: url(https://img.freepik.com/free-vector/hand-drawn-question-mark-pattern_23-2149416651.jpg);
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/274/712/957/smooth-silky-colorful-cgi-wallpaper-preview.jpg);
     background-size:cover;
     }
 #welcoming{
     color: rgb(255, 255, 1);
-    background-color:black ;
+    background-color:rgb(255, 61, 226) ;
    position : absolute;
    margin-left:575px;
    margin-top: 200px;
@@ -14,21 +14,42 @@ body{
     margin-top: 540px;
     outline: none;
     cursor: pointer;
-    border: none;
-    padding: 0.9rem 2rem;
-    font-family: inherit;
-    font-size: inherit;
     position: absolute;
-    display: inline-block;
-    letter-spacing: 0.05rem;
-    font-weight: 700;
-    font-size: 17px;
-    border-radius: 500px;
-    overflow: hidden;
-    background: #000000;
+    background: #ff41ff;
     color: rgb(255, 255, 0);
 }
+#next{
+    margin-left: 950px;
+    margin-top: 500px;
+    outline: none;
+    cursor: pointer;
+    position: absolute;
+    background: #ff41ff;
+    color: rgb(255, 255, 0);
+}
+#score{
+    margin-left: 1400px;
+    margin-top: 30px;
+}
+#scorecount{
+    margin-left: 1400px;
+    margin-top: 10px;
 
+}
+#gojo{
+    width: 500px;
+    position: absolute;
+    margin-left: 505px;
+    margin-top: -50px;
+}
+#answers{
+    margin-top: 350px;
+    margin-left: 300px;
+    position: absolute;
+    font-size: 30px;
+
+}
+ 
 
 
 

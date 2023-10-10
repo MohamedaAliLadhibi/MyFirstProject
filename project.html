@@ -1,6 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<div>
+    <style id="grid">
+        .grid-container {
+            display: none;
+            grid-template-columns: auto auto auto auto;
+            gap: 5px;
+            background-color: #000000;
+            padding: 5px;
+            margin-top: 350px;
+            width:600px;
+            margin-left:500px;
+            position: absolute;
+          }
+        
+          .grid-container > div {
+            background-color: rgb(255, 2, 234);
+            border: 1px solid rgb(255, 255, 255);
+            text-align: center;
+            font-size: 40px;
+            
+        
+          }
+          
+    </style>
+    <div>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>quiz</title>
@@ -13,11 +38,25 @@
     <script src='https://code.jquery.com/jquery-2.2.4.js'></script>
     <script src="project.js"></script>
 <body>
-<button id="next">next</button>    
+
 <h1 id="score"> score</h1>
 <h2 id="scorecount">0</h2>
 
-    
+<div class="image-container">
+    <img id="gojo" src="https://static0.srcdn.com/wordpress/wp-content/uploads/2023/05/gojo-pulls-off-his-blindfold-in-jujutsu-kaisen.jpg" alt="">
+    <button id="next" > next</button> 
+
+</div>
+  <body>
+ <div>
+  <div class="grid-container">
+    <div>luffy</div>
+    <div>gojo</div>
+    <div>naruto</div>
+    <div>gon</div>
+  
+ </div>
+<h5 id="answers">the answers</h5>
 </body>
 </html>
 
